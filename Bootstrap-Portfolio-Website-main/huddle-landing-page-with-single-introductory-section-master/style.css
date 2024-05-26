@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+     padding: 0;
+     background-image: url('./images/bg-desktop.svg');
+     background-color: blueviolet;
+     color: white;
+
+}
+.head{
+   /* margin-top: 50px;
+   margin-bottom: 50px; */
+   margin: 40px 120px;
+
+}
+
+.main-body{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+   
+}
+.right{
+   margin-top: 60px;
+   margin-left: 60px;
+   width: 30vw;
+}
+.right h1{
+    
+   font-size: 2.5rem;
+   margin-bottom: 30px;
+}
+
+.btn{
+   
+   font-size: 14px;
+
+   padding: 10px 20px;
+     background-color: cornsilk;
+     color: violet;
+     border: none;
+     border-radius: 20px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+   
+}
+.footer-bottom{
+  display: flex;
+  justify-content: flex-end;
+  padding:  20px;
+  margin-top: 20px;
+  margin-right: 80px;
+ 
+
+}

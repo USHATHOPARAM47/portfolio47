@@ -1,0 +1,64 @@
+*
+{
+    box-sizing: border-box;
+}
+.main{
+    margin: 50px;
+    border: 1px solid green;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 0px;
+    color: white;
+    border: 1px solid white;
+    transition-property: background-color height width  ;/*or else all*/
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    /*transition-delay: 5s;*/
+    perspective: 800px;
+    box-shadow: 5px 5px black;
+    margin: 20px;
+    
+
+}
+/*
+.box1{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.box2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.box3{
+    width: 100vw;
+    position: sticky;
+    top: 0px;
+}
+.box4{
+
+}*/
+.box:hover{
+    /*background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    transform: rotate(45deg);
+    transform: scale(1.2);*/
+    transform: translate(100px,100px);
+
+}
+.popeye{
+    filter: grayscale();
+    clip-path: circle();
+}
